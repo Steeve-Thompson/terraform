@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo ${Application_Name} > /tmp/hi.txt
 if [ ${Application_Name} = "jenkins" ]; then
         echo "hi"
